@@ -1,0 +1,74 @@
+.app-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 16px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.recommend-form {
+  display: grid;
+  gap: 10px;
+  max-width: 420px;
+  margin: 0 auto 24px;
+  padding: 16px;
+  border: 1px solid #d9d9d9;
+  border-radius: 8px;
+  background: #fafafa;
+}
+
+.recommend-form label {
+  font-weight: 600;
+}
+
+.recommend-form input,
+.recommend-form select,
+.recommend-form button {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #cfcfcf;
+  font-size: 14px;
+}
+
+.recommend-form button {
+  background: #1f6feb;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.recommend-form button:hover {
+  background: #1557b0;
+}
+
+.error-text {
+  color: #c0392b;
+  text-align: center;
+  font-weight: 600;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #ffffff;
+}
+
+th,
+td {
+  border: 1px solid #d5d5d5;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background: #f1f5f9;
+}
